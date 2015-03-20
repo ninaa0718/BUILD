@@ -116,3 +116,74 @@ sudo apt-get update
 sudo su
 ping google.com
 sudo su
+cd one.txt
+cd $HOME
+mkdir nine
+pwd
+mv one.txt nine
+cd one.txt
+git add one.txt
+git status
+git add two.txt
+git commit -m "changes made"
+git push -u orgin master
+cd $HOME
+ls -la
+cd .ssh
+la -la
+pwd
+git push -u orgin master
+cd
+git push -u orgin master
+git add .
+git status
+touch ten.txt
+git add ten.txt
+git commit -m "commit"
+git push -u orgin master
+pwd
+git remote add origin git@github.com:nineetha/BUILD.git
+git push -u orgin master
+git remote rename master orgin
+git remote origin master
+git remote -v
+git remote origin master
+git remote add origin git@github.com:nineetha/BUILD.git 
+git push -u orgin master
+cd .ssh
+ls -la
+cat id_rsa.pub
+cd $HOME
+git push -u orgin master
+git init
+git add ten.txt
+git commit -m "commit"
+git push -u orgin master
+git push
+git push -u orgin master
+git remote -v
+git init
+touch one.txt
+git add one.txt
+git commit -m "first file commit"
+git remote add origin git@github.com:nineetha/build-2.git
+git push -u orgin master
+ls -la
+cd
+pwd
+d .ssh
+cd .ssh
+ls -la
+git remote remove origin
+git remote add origin git@github.com:nineetha/build-2.git
+cd
+git push -u orgin master
+ssh-keygen -t rsa "attunurunineetha@gmail.com"
+git push -u orgin master
+git remote add origin git@github.com:nineetha/BUILD.git
+git push -u origin
+git push -u origin master
+git commit -m "updated commit"
+git push -u origin master
+git status
+git log
