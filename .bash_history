@@ -116,6 +116,7 @@ sudo apt-get update
 sudo su
 ping google.com
 sudo su
+<<<<<<< HEAD
 cd one.txt
 cd $HOME
 mkdir nine
@@ -187,3 +188,50 @@ git commit -m "updated commit"
 git push -u origin master
 git status
 git log
+=======
+>>>>>>> 47bbc2a54e9d59ddece70044e1034214e85c37d8
+git add nine.txt
+git commit -m "updated commit"
+git push -u origin master
+git add changed nine.txt
+git commit --amend -m "updated commit"
+git status
+git add .bash_history
+git commit -m " commit"
+git push -u origin master
+git remote add origin git@github.com:nineetha/BUILD.git
+git push -u origin master
+git log
+git add nine.txt
+git commit -m " third commit"
+git push -u origin master
+git remote add origin git@github.com:nineetha/BUILD.git
+git push -u origin master
+git remote add origin git@github.com:nineetha/BUILD.git
+git push -u origin master
+git remote add origin git@github.com:nineetha/BUILD.git
+git clone git@github.com:nineetha/BUILD.git
+git remote add origin git@github.com:nineetha/BUILD.git
+git push -u origin master
+git add nine.txt
+git commit -m " third commit"
+git remote add origin git@github.com:nineetha/BUILD.git
+git push -u origin master
+gitremote set-url origin https://github.com/nineetha/BUILD.git
+git remote set-url origin https://github.com/nineetha/BUILD.git
+git add nine.txt
+git commit -m " third commit"
+git push -u origin master
+git remote add origin 
+git remote add origin git@github.com:nineetha/BUILD.git
+git add nine.txt
+git commit -m " third commit"
+git add BUILD
+git commit -m "commit"
+git push -u origin master
+git log
+git pull
+git add nine.txt
+git remote add origin git@github.com:nineetha/BUILD.git
+git commit -m "third commit"
+git commit -a
