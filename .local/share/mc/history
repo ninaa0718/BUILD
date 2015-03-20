@@ -1,0 +1,13 @@
+[cmdline]
+0=
+
+[Dir Hist New Right Panel]
+0=/home/sysadmin
+
+[Dir Hist New Left Panel]
+0=/tmp
+1=/var
+2=/var/log
+3=/home/sysadmin
+4=/home
+5=/
