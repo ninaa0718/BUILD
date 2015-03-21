@@ -235,3 +235,29 @@ git add nine.txt
 git remote add origin git@github.com:nineetha/BUILD.git
 git commit -m "third commit"
 git commit -a
+git commit -m "third commit"
+git stash
+git add nine.txt
+git stash
+git rm git@github.com:nineetha/BUILD.git
+git remote remove origin
+git remote add origin git@github.com:nineetha/BUILD.git
+git add nine.txt
+git commit -m "third commit"
+git status
+git branch
+git status
+cat nine.txt
+git commit -a -m "conflict resolved"
+git commit -m "third commit"
+git push -u origin master
+git log
+git add one.txt
+git commit -m "re commit"
+git push -u origin master
+git pull --rebase origin master
+git push -u origin master
+git add one.txt
+git commit -m "upadated commit"
+git push -u one.txt
+git log
